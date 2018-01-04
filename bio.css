@@ -9,12 +9,37 @@ h1, h2{
                                             No caso "sans-serif" indica que se utilize qualquer fonte desse tipo. */
 }
 
-h1 {
+main h1 {                          /*Estou aplicando o estilo apenas aos h1 filhos da tag main.*/
     background-color: #851944;
     color: #FFF;
     text-align: center;
 }
 
+main a {
+    color: #851944;
+}
+
 p {
     text-align: justify;
+}
+
+blockquote {
+    background-color: #D9E5E3;
+}
+
+aside, footer, nav a {
+    color: #F2FFFC;
+}
+
+aside {
+    background-color: #3C1D3D;
+}
+
+footer {
+    background-color: #000;
+}
+
+aside a {
+    color: inherit;
+    font-family: "Open Sans Condensed", sans-serif;
 }
