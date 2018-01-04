@@ -1,0 +1,20 @@
+body {
+    font-family: "Crimson Text", serif;
+    background-color: #F2FFFC;
+}
+
+h1, h2{
+    font-family: "Open Sans Condensed", sans-serif; /* Ao colocar mais de uma fonte, se não encontrar uma, tentara usar a proxima.
+                                            para não ficar especificando todas os possíveis fontes, pode-se escolher um tipo de fonte.
+                                            No caso "sans-serif" indica que se utilize qualquer fonte desse tipo. */
+}
+
+h1 {
+    background-color: #851944;
+    color: #FFF;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
