@@ -1,6 +1,7 @@
 body {
     font-family: "Crimson Text", serif;
     background-color: #F2FFFC;
+    line-height: 1.5;
 }
 
 h1, h2{
@@ -13,10 +14,34 @@ main h1 {                          /*Estou aplicando o estilo apenas aos h1 filh
     background-color: #851944;
     color: #FFF;
     text-align: center;
+    padding: 25px;
+    margin: 0px;
+    border-bottom: 10px solid black;
 }
 
 main a {
     color: #851944;
+}
+
+main div {
+    width: 720px;
+    margin: auto;
+}
+
+.div_teste {
+    /*gravata borboleta
+    border-left: 30px solid red;
+    border-bottom: 30px solid transparent;
+    border-top: 30px solid transparent;
+    border-right: 30px solid red;
+    width: 0;*/
+    
+    /*triângulo*/
+    border-left: 30px solid red;
+    border-bottom: 30px solid red;
+    border-top: 30px solid transparent;
+    border-right: 30px solid transparent;
+    width: 0;
 }
 
 p {
@@ -25,6 +50,18 @@ p {
 
 blockquote {
     background-color: #D9E5E3;
+    border: 10px solid #C2CCCA;
+    border-bottom-color: #333;
+    border-right-color: #FFF;
+    margin: 0px;
+    width: 250px;
+    box-sizing: border-box; /*determina que os 250px de largura se aplicam à borda da caixa e não ao texto, que é o padrão do navegador*/
+    /*border-radius: 10px; canto arredondado*/
+    /*box-shadow: 6px 6px 6px black; sombreado*/
+}
+
+blockquote, aside, footer {
+    padding: 20px;
 }
 
 aside, footer, nav a {
@@ -33,6 +70,7 @@ aside, footer, nav a {
 
 aside {
     background-color: #3C1D3D;
+    text-align: center;
 }
 
 body footer {
@@ -43,3 +81,7 @@ aside a {
     color: inherit;
     font-family: "Open Sans Condensed", sans-serif;
 }
+
+ ul {
+     list-style-type:none
+ }
