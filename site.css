@@ -16,10 +16,12 @@ body {
 	padding: 25px;
 	border-bottom: 10px solid black;
     font-size: 60px;
+    text-transform: uppercase;
 }
 
 h2 {
     font-size: 30px;
+    clear: both;
 }
 
 p {
@@ -32,7 +34,17 @@ p {
 	border: 10px solid #C2CCCA;
 	width: 250px;
 	box-sizing: border-box;
-    margin: 20px 40px;
+    margin: 20px 0;
+}
+
+.fiat {
+    float: right;
+    margin: 20px 0 0 30px;
+}
+
+.petrobras {
+    float: left;
+    margin: 20px 30px 0 0;
 }
 
 .navegacao-site {
@@ -48,6 +60,7 @@ p {
 
 nav a {
 	color: #F2FFFC;
+    text-transform: lowercase;
 }
 
 main a {
@@ -77,21 +90,35 @@ em {
     font-style: italic;
 }
 
-aside h1 {
+.titulo-navegacao {
 	font-size: 30px;
     margin-bottom: 25px;
+    text-transform: uppercase;
 }
 
 .icones-sociais li {
     display: inline-block;
 }
 
-.social-menu li {
+.icones-sociais a {
+    display: inline-block;
     margin-top: 30px;
+    width: 40px;
+    height: 40px;
+    /*text-indent: -99999px;*/ /*Pode ser usada essa alternativa ou font-size: 0*/
+    font-size: 0;
 }
 
-.social-rodape {
-    margin-top: 10px;
+.icone-github {
+    background-image: url(github.png);
+}
+
+.icone-twitter {
+    background-image: url(twitter.png);
+}
+
+.icone-linkedin {
+    background-image: url(linkedin.png);
 }
 
 article {
@@ -107,4 +134,26 @@ article {
     display: block;
     text-align: center;
     background-color: #E6E7E8;
+}
+
+img, aside {
+    float: right;
+    width: 15%;
+    box-sizing: border-box; /*Isso informa para o navegador que o tamanho a ser considerado inclui a borda e não só o conteúdo interno.*/
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+main {
+    float: left;
+    width: 85%;
+}
+
+.rodape-pagina {
+    clear: both;
+}
+
+cite {
+    float: right;
+    font-style: italic;
 }
