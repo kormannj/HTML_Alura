@@ -1,0 +1,133 @@
+body {
+	font-family: "Crimson Text", "Times New Roman", serif;
+	background-color: #F2FFFC;
+	font-size: 120%;
+	line-height: 1.5;
+}
+
+.titulo-principal, h2 {
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+.titulo-principal {
+	text-align: center;
+	background-color: #851944;
+	color: #FFF;
+	padding: 25px;
+	border-bottom: 10px solid black;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 30px;
+    clear: both;
+}
+
+p {
+	text-align: justify;
+    margin: 20px 0;
+}
+
+.navegacao-site {
+	background-color: #3C1D3D;
+	color: #F2FFFC;
+    text-align: center;
+}
+
+.rodape-pagina {
+	background-color: #000;
+	color: #F2FFFC;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+nav a {
+	color: #F2FFFC;
+    text-transform: lowercase;
+}
+
+main a {
+	color: #851944;
+}
+
+.navegacao-site a {
+	color: inherit;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+
+.citacoes-profissionais, .navegacao-site, footer {
+    padding: 20px;
+}
+
+.texto-principal {
+	width: 700px;
+	margin: auto;
+    padding: 30px 0;
+    padding-bottom: 80px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+.titulo-navegacao {
+	font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.icones-sociais li {
+    display: inline-block;
+}
+
+.icones-sociais a {
+    display: inline-block;
+    margin-top: 30px;
+    width: 40px;
+    height: 40px;
+    /*text-indent: -99999px;*/ /*Pode ser usada essa alternativa ou font-size: 0*/
+    font-size: 0;
+}
+
+.icone-github {
+    background-image: url(../img/github.png);
+}
+
+.icone-twitter {
+    background-image: url(../img/twitter.png);
+}
+
+.icone-linkedin {
+    background-image: url(../img/linkedin.png);
+}
+
+.minha-foto, aside {
+    float: right;
+    box-sizing: border-box; /*Isso informa para o navegador que o tamanho a ser considerado inclui a borda e não só o conteúdo interno.*/
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+aside {
+    width: 15%;
+    position: relative;
+    top: 229px;
+}
+
+.minha-foto {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 17%;
+}
+
+main {
+    float: left;
+    width: 85%;
+}
